@@ -16,6 +16,9 @@ src/                The source code for the algorithm.
 env.jl              Intalling environment.
 preprocess_data.jl  Preprocess genome format data.
 learn_hclt.jl       Learning a HCLT.
+
+# plotting scripts
+launch_plotting_figs_SNP_1000G.ipynb   Generating plots
 ```
 
 ## Environment
@@ -32,7 +35,7 @@ Run the following command to preprocess the datasets.
    ```
 
 ## Experiments
-- Run the following command to learning hidden Chow-Liu trees and generate artificial genomes
+- Run the following command to learn hidden Chow-Liu trees on `805` and `10K` dataset, and generate artificial genomes
     ```
     julia --project learn_hclt.jl --datasetname 805 --k_fold 1 --nosplit \
         --latents 16 --pseudocount 0.005 --softness 0 --batch_size 1024 \
