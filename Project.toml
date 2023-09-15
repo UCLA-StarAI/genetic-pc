@@ -1,0 +1,15 @@
+name = "TrainPCGenomes"
+uuid = "fccfd18d-7313-47de-a289-67969b246146"
+authors = ["Meihua D. <mhdang0026@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+LogicCircuits = "a7847b3b-b7f1-4dd5-83c3-60e0aa0f8599"
+MLBase = "f0e99cf1-93fa-52ec-9ecc-5026115318e0"
+ProbabilisticCircuits = "2396afbe-23d7-11ea-1e05-f1aa98e17a44"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
